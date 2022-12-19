@@ -1,0 +1,34 @@
+[
+	{
+		"name": "Berserker",
+		"unitType": "Sword",
+		"replaces": "Swordsman",
+		"uniqueTo": "Denmark",
+		"movement": 3,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+                "uniques": ["Damage is ignored when determining unit Strength", "[+50]% Strength <when attacking> <when below [25] HP>", "[+33]% Strength <after discovering [Metal Casting]>"],       
+		"promotions": ["Amphibious"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+},
+{ 
+		"name": "Longship",
+		"unitType": "Melee Water",
+		"replaces": "Trireme",
+		"uniqueTo": "Denmark",
+		"movement": 5,
+		"strength": 11,
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"obsoleteTech": "Navigation",
+                "upgradesTo": "Caravel",
+		"uniques": ["[+1] Sight", "Transfer Movement to [Settler]", "Transfer Movement to [Worker]", "Transfer Movement to [Warrior]", "Transfer Movement to [Berserker]", "Cannot enter ocean tiles <before discovering [Optics]>"],
+		"hurryCostModifier": 30,
+            "promotions": ["Coastal Raider I", "Landing Party"],
+		"attackSound": "throw"
+	},
+]
