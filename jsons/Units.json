@@ -27,8 +27,8 @@
 		"obsoleteTech": "Navigation",
                 "upgradesTo": "Caravel",
 		"uniques": ["[+1] Sight", "Transfer Movement to [Settler]", "Transfer Movement to [Worker]", "Transfer Movement to [Warrior]", "Transfer Movement to [Berserker]", "Cannot enter ocean tiles <before discovering [Optics]>"],
-		"hurryCostModifier": 30,
-            "promotions": ["Coastal Raider I", "Landing Party"],
+		"hurryCostModifier": 25,
+                "promotions": ["Coastal Raider I", "Landing Party"],
 		"attackSound": "throw"
 	},
 ]
