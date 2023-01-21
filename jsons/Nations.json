@@ -5,6 +5,7 @@
 		"adjective": ["Danish"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
+                "style": "Scandinavian",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
