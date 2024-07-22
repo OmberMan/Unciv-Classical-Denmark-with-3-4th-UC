@@ -10,10 +10,17 @@
                 "faith": 7,
                 "military": 9,
                 "warMongering": 10,
+"aggressive": 10,
+      "declareWar": 9,
+      "commerce": 8,
+      "diplomacy": 4,
+      "loyal": 4,
+      "expansion": 7,
 "priorities": {
     "Exploration": 50,
-    "Honor": 40,
-    "Commerce": 20,
+    "Honor": 50,
+    "Tradition": 10,
+    "Commerce": 10,
 }
         }
 ]
