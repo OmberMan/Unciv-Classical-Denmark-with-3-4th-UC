@@ -10,10 +10,10 @@
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
-                "uniques": ["Damage is ignored when determining unit Strength", "[+50]% Strength <when attacking> <when below [25] HP>", "[+33]% Strength <after discovering [Metal Casting]>"],       
+                "uniques": ["Damage is ignored when determining unit Strength", "[+25]% Strength <when [Wounded]>", "[+50]% Strength <when attacking> <when below [25] HP>", "[+33]% Strength <after discovering [Metal Casting]>"],       
 		"promotions": ["Amphibious"],
 		"hurryCostModifier": 20,
-		"attackSound": "horse"
+		"attackSound": "metalhit"
 },
 { 
 		"name": "Longship",
@@ -29,6 +29,6 @@
 		"uniques": ["[+1] Sight", "Transfer Movement to [Settler]", "Transfer Movement to [Worker]", "Transfer Movement to [Warrior]", "Transfer Movement to [Berserker]", "Cannot enter ocean tiles <before discovering [Optics]>"],
 		"hurryCostModifier": 25,
                 "promotions": ["Coastal Raider I", "Landing Party"],
-		"attackSound": "throw"
+		"attackSound": "horse"
 	},
 ]
